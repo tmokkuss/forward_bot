@@ -6,10 +6,10 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
-bot = Bot(token='5572175079:AAEacisYXS_wGA8SS-VQVM-igwAnVGda2gQ', parse_mode='HTML')
+bot = Bot(token='API-token', parse_mode='HTML')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
-TELEGRAM_SUPPORT_CHAT_ID = -1001697752407 #-839827416
+TELEGRAM_SUPPORT_CHAT_ID = "TELEGRAM_SUPPORT_CHAT_ID"
 PHOTOS_ID = []
 photo_delivered: set[int] = set()
 
